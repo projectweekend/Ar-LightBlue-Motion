@@ -1,4 +1,1 @@
-Ar-LightBlue-Motion
-===================
-
-A motion detector sketch for the LightBlue Bean (http://punchthrough.com/bean/)
+This is a simple motion detector sketch for the [LightBlue Bean](http://punchthrough.com/bean/). In addition to BLE wireless serial communication, the LightBlue Bean has five [scratch characteristic](http://punchthrough.com/bean/arduino-users-guide/#Scratch_Characteristics) banks. When motion is detected, a `1` is written to the first bank. The default value is `0`. Other BLE devices can easily check this characteristic.
