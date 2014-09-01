@@ -1,4 +1,5 @@
 uint16_t THRESHOLD = 20;
+int INTERVAL = 1000;
 
 AccelerationReading previousReading = {0, 0, 0};
 AccelerationReading currentReading = {0, 0, 0};
@@ -18,7 +19,7 @@ void loop() {
         Bean.sleep(7200000);
     }
 
-    Bean.sleep(1000);
+    Bean.sleep(INTERVAL);
 
 }
 
